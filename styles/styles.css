@@ -1,0 +1,78 @@
+
+
+
+body {
+  width: 750px;
+  padding: 20px;
+  border-style: solid;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.NavLinks {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  height: 75px;
+  text-decoration: none;
+}
+
+.NavLinks a {
+  border-style: solid;
+  border-color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+.NavLinks a:link {
+  color: black;
+}
+
+.NavLinks a:visited {
+  color: black;
+}
+.NavLinks a:hover {
+  text-decoration: underline;
+}
+
+.NavLinks a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+
+.pageHeader {
+  display: flex;
+}
+
+h2 {
+  text-align: left;
+  text-decoration-thickness: 10px;
+}
+
+
+
+
+.infoSubmission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+footer {
+  margin-top: 50px;
+}
+
+
+footer p {
+  text-align: center;
+  opacity: 50%;
+  margin: 0px;
+}
