@@ -1,6 +1,4 @@
 
-
-
 body {
   width: 750px;
   padding: 20px;
@@ -57,14 +55,23 @@ h2 {
 
 
 
-.infoSubmission {
+form {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+form input {
+  width: 150px;
+  flex:2;
+}
 
+form textarea {
+  width: 150px;
+
+}
 
 footer {
   margin-top: 50px;
