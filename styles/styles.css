@@ -3,14 +3,27 @@ body {
   width: 750px;
   padding: 20px;
   border-style: solid;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-img {
+
+.pageHeader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items:center;
+  font-size: 25px;
+}
+
+.pageHeader img {
   width: 150px;
   height: 150px;
 }
 
+
+
 .NavLinks {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   width: 175px;
@@ -43,35 +56,25 @@ img {
 }
 
 
-.pageHeader {
-  display: flex;
-}
-
 h2 {
   text-align: left;
   text-decoration-thickness: 10px;
 }
 
 
-
-
 form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-form input {
-  width: 150px;
-  flex:2;
-}
-
 form textarea {
-  width: 150px;
-
+  width: 195px;
+  height: 50px;
 }
+
+
 
 footer {
   margin-top: 50px;
