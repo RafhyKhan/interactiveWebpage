@@ -1,12 +1,4 @@
 
-body {
-  width: 750px;
-  padding: 20px;
-  border-style: solid;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
 .pageHeader {
   display: flex;
   flex-wrap: wrap;
@@ -15,11 +7,20 @@ body {
   font-size: 25px;
 }
 
+
 .pageHeader img {
   width: 150px;
   height: 150px;
 }
 
+
+body {
+  width: 750px;
+  height: 600px;
+  padding: 20px;
+  border-style: solid;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 .NavLinks {
@@ -31,6 +32,7 @@ body {
   text-decoration: none;
 }
 
+
 .NavLinks a {
   border-style: solid;
   border-color: black;
@@ -39,20 +41,14 @@ body {
   font-size: 25px;
 }
 
+
 .NavLinks a:link {
   color: black;
 }
 
-.NavLinks a:visited {
-  color: black;
-}
+
 .NavLinks a:hover {
   text-decoration: underline;
-}
-
-.NavLinks a:active {
-  text-decoration: underline;
-  color: black;
 }
 
 
@@ -69,11 +65,12 @@ form {
   align-items: center;
 }
 
+
 form textarea {
   width: 195px;
   height: 50px;
+  padding-bottom: 32px;
 }
-
 
 
 footer {
